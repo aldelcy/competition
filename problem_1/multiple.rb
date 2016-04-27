@@ -5,7 +5,7 @@ class MultipleAdder
 		(0..num).each do |x|
 			
 			if x%3 == 0 || x%5 == 0			
-				total  = total + x
+				total = total + x
 			end		
 		end
 		puts total
@@ -13,8 +13,6 @@ class MultipleAdder
 	
 end
 
-
-
 adder = MultipleAdder.new
 
-adder.sum_of_multiple(1000)
+# adder.sum_of_multiple(500)
