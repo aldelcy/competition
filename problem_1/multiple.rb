@@ -1,6 +1,6 @@
 class MultipleAdder
 
-	def sum_of_multiple(num)
+	def sum_of_multiples(num)
 		total = 0
 		(0..num).each do |x|
 			
@@ -15,4 +15,4 @@ end
 
 adder = MultipleAdder.new
 
-# adder.sum_of_multiple(500)
+# adder.sum_of_multiples(500)
